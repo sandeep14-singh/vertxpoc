@@ -1,0 +1,15 @@
+micronaut:
+  application:
+    name: vertxpoc
+  ssl:
+      enabled: true
+      buildSelfSigned: true
+  server:
+       port: 8090
+       http-version: 2.0
+  http:
+       client:
+           http-version: 2.0
+           read-timeout: -1
+  jackson:
+    bean-introspection-module: true
