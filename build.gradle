@@ -50,4 +50,20 @@ dependencies {
     runtimeOnly("io.netty:netty-tcnative-boringssl-static:2.0.29.Final")
     compile 'io.vertx:vertx-core:3.9.1'
     compile 'io.vertx:vertx-web-client:3.9.1'
+
+    // https://mvnrepository.com/artifact/org.eclipse.jetty.http2/http2-client
+    compile group: 'org.eclipse.jetty.http2', name: 'http2-client', version: '9.4.30.v20200611'
+    // https://mvnrepository.com/artifact/org.eclipse.jetty.http2/http2-http-client-transport
+    compile group: 'org.eclipse.jetty.http2', name: 'http2-http-client-transport', version: '9.4.30.v20200611'
+
+
+    compile group: 'org.eclipse.jetty', name: 'jetty-client', version: '9.4.30.v20200611'
+    compile group: 'org.eclipse.jetty.http2', name: 'http2-common', version: '9.4.30.v20200611'
+
+   compile group: 'org.eclipse.jetty', name: 'jetty-alpn-openjdk8-client', version: '9.4.30.v20200611'
+
+
+
+
+
 }
